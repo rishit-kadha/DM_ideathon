@@ -17,12 +17,12 @@
             <svg fill="#FFFFFF" height="10vw" width="10vw"viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M697.4 759.2l61.8-61.8L573.8 512l185.4-185.4-61.8-61.8L512 450.2 326.6 264.8l-61.8 61.8L450.2 512 264.8 697.4l61.8 61.8L512 573.8z"/></svg>
         </a>
         <div class="slider">
-
+            
         </div>
-        <a href="#" class="primary">About</a>
-        <a href="#" class="primary">Services</a>
-        <a href="#" class="primary">Clients</a>
-        <a href="#" class="primary">Contact</a>
+        <a href="#" class="primary" onclick="openSectionNoInternet()">NoInternet</a>
+        <a href="#" class="primary" onclick="openSectionPreDisaster()">PreDisaster</a>
+        <a href="#" class="primary" onclick="openSectionDuringDisaster()">DuringDisaster</a>
+        <a href="#" class="primary" onclick="openSectionPostDisaster()">PostDisaster</a>
     </div>
     <header>
         <div class="nav">
@@ -49,7 +49,7 @@
         </nav>
     </header>
     <main>
-        <section class="noInternet align hidden" >
+        <section class="noInternet align hidden">
             <h1 class="montserrat-bold dynamicH alYellow"><?xml version="1.0" encoding="iso-8859-1"?>
                 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
                 <svg version="1.1" id="CautionSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -70,7 +70,7 @@
             <p class="montserrat-bold dynamicP">
                 Failed To Connect to server
             </p>
-            <p class="montserrat-bold dynamicP ">
+            <p class="montserrat-bold dynamicP">
                 DO NOT PANIC HELP IS AVAILABLE
             </p>
             <p class="roboto-regular dynamicP" style="text-align: center;">
@@ -78,6 +78,66 @@
             </p>
         </section>
         <section class="PreDisaster ">
+            <div class="container">
+                <div class="scroll">
+                    <h1 class="item">
+                        WARNING : Severe storm approaching. Expect high winds and heavy rainfall in the next 3 hours. Evacuate low-lying areas immediately. Secure loose objects and avoid outdoor activities.
+                    </h1>
+                    <h1 class="item">
+                        |
+                    </h1>
+                    <h1 class="item">
+                        WARNING : Flash flood warning in effect. Rising water levels expected within 2 hours. Evacuate flood-prone areas. Seek higher ground immediately and avoid crossing flooded roads.
+                    </h1>
+                    <h1 class="item">
+                        |
+                    </h1>
+                    <h1 class="item">
+                        WARNING : Cyclone XYZ expected to make landfall within 6 hours. Winds exceeding 150 km/h predicted. Evacuate coastal regions and move to designated safe shelters.
+                    </h1>
+                    <h1 class="item">
+                    |
+                    </h1>
+                    <h1 class="item">
+                        WARNING : Cyclone XYZ expected to make landfall within 6 hours. Winds exceeding 150 km/h predicted. Evacuate coastal regions and move to designated safe shelters.
+                    </h1>
+                    <h1 class="item">|</h1>
+                    <h1 class="item">WARNING : Extreme wildfire risk in your area due to dry conditions and high winds. Avoid outdoor activities, follow evacuation orders if issued, and remain vigilant for updates.</h1>
+                    <h1 class="item">|</h1>
+                    <h1 class="item">WARNING : Seismic activity detected. Potential for a significant earthquake in the region. Secure heavy furniture, prepare emergency kits, and follow local safety advisories.</h1>
+                    <h1 class="item">|</h1>
+                    <h1 class="item">WARNING : Tsunami warning issued after an offshore earthquake. Waves expected to reach the coastline within 30 minutes. Evacuate coastal areas immediately.</h1>
+                    <h1 class="item">|</h1>
+                    <h1 class="item">WARNING : Heatwave expected over the next 48 hours with temperatures exceeding 40°C. Limit outdoor activities, stay hydrated, and check on vulnerable individuals.</h1>
+                    <h1 class="item">|</h1>
+                    <h1 class="item">WARNING : Heavy rains increase landslide risks in hilly regions. Avoid travel near slopes and follow evacuation instructions from local authorities.</h1>
+                    <div class="fade"></div>
+                </div>
+
+            </div>
+            <div style="padding: 3vh;">
+                <div style="display: flex; justify-content: space-around;">
+                    <div class="button montserrat-bold" onclick="">WORLD</div>
+                    <div class="button montserrat-bold" onclick="">YOUR LOCATION</div>
+                </div>
+                <div id="notice" style="margin-top: 5vh; background-color:#c0c0c0 ;">
+                    <ul class="poppins-bold">
+                        <br>
+                        NOTICES :
+                        <br><br>
+
+                        <li>SEVERE WEATHER WARNING : Severe storm approaching. Expect high winds and heavy rainfall in the next 3 hours. Evacuate low-lying areas immediately. Secure loose objects and avoid outdoor activities.</li><br>
+                        <li>FLOOD ALERT : Flash flood warning in effect. Rising water levels expected within 2 hours. Evacuate flood-prone areas. Seek higher ground immediately and avoid crossing flooded roads.</li><br>
+                        <li>CYCLONE WARNING : Cyclone XYZ expected to make landfall within 6 hours. Winds exceeding 150 km/h predicted. Evacuate coastal regions and move to designated safe shelters.</li><br>
+                        <li>WILDFIRE RISK WARNING : Extreme wildfire risk in your area due to dry conditions and high winds. Avoid outdoor activities, follow evacuation orders if issued, and remain vigilant for updates.</li><br>
+                        <li>EARTHQUAKE PREPAREDNESS ALERT : Seismic activity detected. Potential for a significant earthquake in the region. Secure heavy furniture, prepare emergency kits, and follow local safety advisories.</li><br>
+                        <li>TSUNAMI ALERT : Tsunami warning issued after an offshore earthquake. Waves expected to reach the coastline within 30 minutes. Evacuate coastal areas immediately.</li><br>
+                        <li>HEATWAVE WARNING : Heatwave expected over the next 48 hours with temperatures exceeding 40°C. Limit outdoor activities, stay hydrated, and check on vulnerable individuals.</li><br>
+                        <li>LANDSLIDE RISK WARNING : Heavy rains increase landslide risks in hilly regions. Avoid travel near slopes and follow evacuation instructions from local authorities.</li><br>
+                    </ul>
+                </div>
+            </div>
+
     
         </section>
         <section class="DuringDisaster ">
