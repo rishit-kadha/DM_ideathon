@@ -81,9 +81,9 @@ section.hidden{
 
 }
 section.noInternet{
-    margin-top: 3vh;
-}
-.noInternet{
+    margin-top: 0vh;
+    height : 100vh;
+    padding-top: 3vh;
     padding: 2vw;
 }
 /*sidenav*/
